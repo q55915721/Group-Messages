@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		83BE1D9321FE394B004C6A14 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83BE1D9221FE394B004C6A14 /* AppDelegate.swift */; };
-		83BE1D9521FE394B004C6A14 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83BE1D9421FE394B004C6A14 /* ViewController.swift */; };
+		83BE1D9521FE394B004C6A14 /* MessageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83BE1D9421FE394B004C6A14 /* MessageVC.swift */; };
 		83BE1D9821FE394B004C6A14 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83BE1D9621FE394B004C6A14 /* Main.storyboard */; };
 		83BE1D9A21FE394B004C6A14 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83BE1D9921FE394B004C6A14 /* Assets.xcassets */; };
 		83BE1D9D21FE394B004C6A14 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83BE1D9B21FE394B004C6A14 /* LaunchScreen.storyboard */; };
+		83BE1DA521FE3F52004C6A14 /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83BE1DA421FE3F52004C6A14 /* MessageCell.swift */; };
+		83BE1DA721FE3FBF004C6A14 /* Extensions+UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83BE1DA621FE3FBF004C6A14 /* Extensions+UIView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		83BE1D8F21FE394B004C6A14 /* Swift Grouped Messages.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift Grouped Messages.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		83BE1D9221FE394B004C6A14 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		83BE1D9421FE394B004C6A14 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		83BE1D9421FE394B004C6A14 /* MessageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageVC.swift; sourceTree = "<group>"; };
 		83BE1D9721FE394B004C6A14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		83BE1D9921FE394B004C6A14 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		83BE1D9C21FE394B004C6A14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		83BE1D9E21FE394B004C6A14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83BE1DA421FE3F52004C6A14 /* MessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageCell.swift; sourceTree = "<group>"; };
+		83BE1DA621FE3FBF004C6A14 /* Extensions+UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Extensions+UIView.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +58,24 @@
 		83BE1D9121FE394B004C6A14 /* Swift Grouped Messages */ = {
 			isa = PBXGroup;
 			children = (
+				83BE1DA821FE3FCA004C6A14 /* ex */,
 				83BE1D9221FE394B004C6A14 /* AppDelegate.swift */,
-				83BE1D9421FE394B004C6A14 /* ViewController.swift */,
+				83BE1D9421FE394B004C6A14 /* MessageVC.swift */,
 				83BE1D9621FE394B004C6A14 /* Main.storyboard */,
 				83BE1D9921FE394B004C6A14 /* Assets.xcassets */,
 				83BE1D9B21FE394B004C6A14 /* LaunchScreen.storyboard */,
 				83BE1D9E21FE394B004C6A14 /* Info.plist */,
+				83BE1DA421FE3F52004C6A14 /* MessageCell.swift */,
 			);
 			path = "Swift Grouped Messages";
+			sourceTree = "<group>";
+		};
+		83BE1DA821FE3FCA004C6A14 /* ex */ = {
+			isa = PBXGroup;
+			children = (
+				83BE1DA621FE3FBF004C6A14 /* Extensions+UIView.swift */,
+			);
+			path = ex;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,8 +149,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				83BE1D9521FE394B004C6A14 /* ViewController.swift in Sources */,
+				83BE1D9521FE394B004C6A14 /* MessageVC.swift in Sources */,
+				83BE1DA721FE3FBF004C6A14 /* Extensions+UIView.swift in Sources */,
 				83BE1D9321FE394B004C6A14 /* AppDelegate.swift in Sources */,
+				83BE1DA521FE3F52004C6A14 /* MessageCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
